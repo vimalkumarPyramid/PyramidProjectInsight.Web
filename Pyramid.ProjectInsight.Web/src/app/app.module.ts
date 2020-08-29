@@ -8,7 +8,7 @@ import { InterceptorHttpService } from './shared-services/intercepted-http.servi
 import { routing } from './app.routes';
 import { MaterialModule } from './material.module';
 import { LoaderComponent } from './shared-components/loader/loader.component';
-
+import { LoginComponent } from '../app/login/login.component';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { EmailDialogComponent } from './email-dialog/email-dialog.component'
@@ -18,38 +18,39 @@ import { EmailService } from './email-dialog/email-dialog.service';
 import { LoaderService } from './shared-components/loader/loader.service';
 
 @NgModule({
-    declarations: [
-        AppComponent,
-        HomeComponent,
-        EmailDialogComponent,
-        LoaderComponent
-    ],
-    imports: [
-        BrowserModule,
-        BrowserAnimationsModule,
-        FormsModule,
-        ReactiveFormsModule,
-        HttpModule,
-        HttpClientModule,
-        JsonpModule,
-        routing,
-        MaterialModule
-    ],
-    providers: [
-        {
-          provide: HTTP_INTERCEPTORS,
-          useClass: InterceptorHttpService,
-          multi: true,
-        },
-        HomeService,
-        EmailService,
-        NotificationService,
-        LoaderService
-    ],
-    entryComponents: [EmailDialogComponent
-    ],
-    bootstrap: [
-        AppComponent
-    ]
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    EmailDialogComponent,
+    LoaderComponent,
+    LoginComponent
+  ],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpModule,
+    HttpClientModule,
+    JsonpModule,
+    routing,
+    MaterialModule
+  ],
+  providers: [
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: InterceptorHttpService,
+      multi: true,
+    },
+    HomeService,
+    EmailService,
+    NotificationService,
+    LoaderService
+  ],
+  entryComponents: [EmailDialogComponent
+  ],
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule { }
