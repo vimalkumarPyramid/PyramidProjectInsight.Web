@@ -1,15 +1,13 @@
 <mat-toolbar color="primary" class="navbar-header">
-  <mat-toolbar-row class="mat-toolbar-row-header">
-    <span>
-      <img routerLink="/" [src]="constants.imageUrls.projectInsightImageUrl"
-           alt="">
-    </span>
-    <span class="pyramid-logo">
-      <img [src]="constants.imageUrls.pyramidLogoImageUrl"
-           alt="">
-    </span>
-  </mat-toolbar-row>
-</mat-toolbar>
+  <mat-toolbar-row>
+    <h1>Pyramid Project Insight</h1>
+    <div class="menu-spacer">
+      <a mat-button [routerLink]="'/accounts'"> Manage User </a>
+      <a mat-button [routerLink]="'/create-account'"> Manage Projects</a>
+      <a mat-button [routerLink]="'/contacts'"> Manage Clients </a>
+    </div>
+</mat-toolbar-row></mat-toolbar>
+
 <angular-loader></angular-loader>
 <router-outlet></router-outlet>
 <footer class="projectInsight-footer">
@@ -22,7 +20,7 @@
       <span>Current Version: 1.0</span>
     </div>
     <div class="projectInsight-footer-copyright">
-      <span>Powered by Marvel Team ©2018.</span>
+      <span>Powered by Marvel Team ©2020.</span>
     </div>
   </div>
 </footer>
