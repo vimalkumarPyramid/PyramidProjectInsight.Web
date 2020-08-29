@@ -5,8 +5,8 @@ import { LoginComponent } from './login/login.component';
 
 // Route Configuration
 export const routes: Routes = [
-  { path: 'login', component: LoginComponent, pathMatch: 'full' },
-  { path: '', component: HomeComponent, pathMatch: 'full' },
+  { path: '', component: LoginComponent, pathMatch: 'full' },
+  { path: 'home', component: HomeComponent, pathMatch: 'full' },
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(routes, { useHash: true });
