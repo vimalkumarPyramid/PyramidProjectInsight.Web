@@ -16,6 +16,7 @@ import { HomeService } from './home/home.service';
 import { NotificationService } from './shared-services/notification.service';
 import { EmailService } from './email-dialog/email-dialog.service';
 import { LoaderService } from './shared-components/loader/loader.service';
+import { AddUserComponent } from './addUser/adduser.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { LoaderService } from './shared-components/loader/loader.service';
     HomeComponent,
     EmailDialogComponent,
     LoaderComponent,
-    LoginComponent
+    LoginComponent,
+    AddUserComponent
   ],
   imports: [
     BrowserModule,

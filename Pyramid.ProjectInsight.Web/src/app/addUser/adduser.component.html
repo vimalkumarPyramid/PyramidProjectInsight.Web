@@ -33,10 +33,10 @@
               <input type="checkbox" formControlName="isActive" class="form-control addTxt" />
             </div>
             <div class="form-group">
-              <button class="btn btn-primary" (click)="addUser()" [ngClass]="{'disabled': !userForm.valid}" [disabled]="!userForm.valid">
+              <button class="mat-raised-button" (click)="addUser()" [ngClass]="{'disabled': !userForm.valid}" [disabled]="!userForm.valid">
                 Add
               </button>
-              <button (click)="reset()" class="btn btn-link">Cancel</button>
+              <button (click)="reset()" class="mat-raised-button ">Cancel</button>
             </div>
           </form>
           <div><h4>User Information</h4></div>
