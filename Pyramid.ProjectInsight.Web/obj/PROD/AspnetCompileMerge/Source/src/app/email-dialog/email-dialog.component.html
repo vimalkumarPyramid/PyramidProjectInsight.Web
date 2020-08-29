@@ -1,0 +1,40 @@
+<mat-card-header class="mat-card-header-background-color">
+    <mat-card-title class="mat-title">Send Quotes</mat-card-title>
+</mat-card-header>
+<mat-dialog-content class="mat-typography">
+    <form class="dialog-form">
+        <mat-form-field class="width-100-percent">
+            <input matInput placeholder="Email"
+                   pattern="^[A-Za-z0-9_\+-]+(\.[A-Za-z0-9_\+-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)*\.([A-Za-z]{2,4})$"
+                   autofocus
+                   [formControl]="emailFormControl"
+                   [errorStateMatcher]="matcher"
+                   [(ngModel)]="emailId" />
+            <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+                Please enter a valid email address
+            </mat-error>
+            <mat-error *ngIf="emailFormControl.hasError('required')">
+                Email is <strong>required</strong>
+            </mat-error>
+            <mat-error *ngIf="emailFormControl.hasError('pattern')">
+                Email format should be <strong>xyz@example.com</strong>
+            </mat-error>
+        </mat-form-field>
+    </form>
+    <p class="margin-top-20-px">
+        We will send your selected investment quotes to above mentioned email.
+    </p>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+    <button mat-raised-button color="warn"
+            (click)="onCancel()">
+        No Thanks
+    </button>
+    <button mat-raised-button color="primary"
+            (click)="onSend()"
+            [mat-dialog-close]="emailResult"
+            [disabled]="isValidEmail()"
+            cdkFocusInitial>
+        Send
+    </button>
+</mat-dialog-actions>

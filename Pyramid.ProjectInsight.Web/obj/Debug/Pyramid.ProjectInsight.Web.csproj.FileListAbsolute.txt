@@ -1,0 +1,6 @@
+D:\PyramidProjectInsight.Web\PyramidProjectInsight.Web\Pyramid.ProjectInsight.Web\bin\Pyramid.ProjectInsight.Web.dll.config
+D:\PyramidProjectInsight.Web\PyramidProjectInsight.Web\Pyramid.ProjectInsight.Web\bin\Pyramid.ProjectInsight.Web.dll
+D:\PyramidProjectInsight.Web\PyramidProjectInsight.Web\Pyramid.ProjectInsight.Web\bin\Pyramid.ProjectInsight.Web.pdb
+D:\PyramidProjectInsight.Web\PyramidProjectInsight.Web\Pyramid.ProjectInsight.Web\obj\Debug\Pyramid.ProjectInsight.Web.csproj.CoreCompileInputs.cache
+D:\PyramidProjectInsight.Web\PyramidProjectInsight.Web\Pyramid.ProjectInsight.Web\obj\Debug\Pyramid.ProjectInsight.Web.dll
+D:\PyramidProjectInsight.Web\PyramidProjectInsight.Web\Pyramid.ProjectInsight.Web\obj\Debug\Pyramid.ProjectInsight.Web.pdb
