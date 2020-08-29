@@ -1,11 +1,22 @@
-:root {
+/*:root {
   --input-padding-x: 1.5rem;
   --input-padding-y: .75rem;
-}
+}*/
 
-body {
+/*body {
   background: #007bff;
   background: linear-gradient(to right, #0062E6, #33AEFF);
+}*/
+
+.row [class^="col"] {
+  float: left;
+  margin: 8.5rem 38%;
+  min-height: 0.125rem;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
 }
 
 .card-signin {
