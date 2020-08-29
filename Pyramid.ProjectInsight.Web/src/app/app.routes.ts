@@ -5,8 +5,8 @@ import { LoginComponent } from './login/login.component';
 
 // Route Configuration
 export const routes: Routes = [
-  { path: '', component: HomeComponent, pathMatch: 'full' },
-  { path: 'login', component: LoginComponent, pathMatch: 'full' },
+  { path: '', component: LoginComponent, pathMatch: 'full' },
+  { path: 'home', component: HomeComponent, pathMatch: 'full' },  
   { path: 'manage-user', component: LoginComponent, pathMatch: 'full' },
   { path: 'manage-projects', component: LoginComponent, pathMatch: 'full' },
   { path: 'manage-client', component: LoginComponent, pathMatch: 'full' },
