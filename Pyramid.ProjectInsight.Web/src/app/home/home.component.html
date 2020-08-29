@@ -1,92 +1,15 @@
+<mat-toolbar color="primary" class="navbar-header">
+  <mat-toolbar-row>
+    <h1>Pyramid Project Insight</h1>
+    <div class="menu-spacer">
+      <a mat-button [routerLink]="'/manage-user'"> Manage User </a>
+      <a mat-button [routerLink]="'/manage-projects'"> Manage Projects</a>
+      <a mat-button [routerLink]="'/manage-client'"> Manage Clients </a>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
 <div class="main">
-  <mat-card>
-    <mat-card-header class="mat-card-header-background-color">
-      <mat-card-title class="mat-title">Marvel Assistant</mat-card-title>
-    </mat-card-header>
-    <mat-card-content>
-      <div class="row">
-        <div class="col-1">
-          <img [src]="constants.imageUrls.marvelImageUrl"
-               matTooltip="Marvel Assistant"
-               class="agent-image" />
-            <div class="col-1 mat-card-header-text-margin quote-button-margin-left">
-                <button mat-raised-button (click)="openSendQuotesDialog()">Send Quotes</button>
-            </div>
-        </div>
-        <div class="col-11">
-          <mat-form-field class="width-100-percent" appearance="outline">
-            <textarea matInput
-                      name="TextToSpeech"
-                      [(ngModel)]="displayText"
-                      rows="7"
-                      readonly="readonly"
-                      style="font-weight:bold"
-                      class="resize-none"></textarea>
-          </mat-form-field>
-        </div>
-      </div>
-    </mat-card-content>
-  </mat-card>
-  <mat-card *ngIf="isUserSelectionToDisplay" class="matcard">
-    <mat-card-header class="mat-card-header-background-color">
-      <mat-card-title class="mat-title">
-        <div class="row">
-          <div class="col-11 mat-card-header-text-margin">
-            {{userSelectionTitle}}
-          </div>
-          <div class="col-1 mat-card-header-text-margin quote-button-margin-left">
-            <button *ngIf="isSendQuoteButtonVisible" mat-raised-button (click)="openSendQuotesDialog()">Send Quotes</button>
-          </div>
-        </div>
-      </mat-card-title>
-    </mat-card-header>
-    <mat-card-content>
-      <div class="row">
-        <!--Previous Navigation-->
-        <div class="col-1 slider-margin">
-          <button *ngIf="isPreviousButtonToDisplay" mat-fab color="primary"
-                  matTooltip="Previous"
-                  (click)="navigateToPreviousUserSelection()"
-                  [disabled]="isPreviousButtonDisabled">
-            <mat-icon>navigate_before</mat-icon>
-          </button>
-        </div>
-
-        <!--User Gender Selection-->
-        <div class="col-10" *ngIf="isGenderSelectionTodisplay">
-          <mat-radio-group [(ngModel)]="selectedGender"
-                           class="width-100-percent">
-            <mat-radio-button class="radiobutton-image image-position-centre"
-                              value="{{gender.male}}">
-              <mat-card-title class="image-title">{{gender.male}}</mat-card-title>
-              <img [src]="setImageUrlAsPerSelection(selectedGender == gender.male, constants.imageUrls.maleImageUrl)"
-                   (click)="setUserInformationAndUpdateNavigation(userSelectionKeys.gender, gender.male, isUserSelectionRequired)"
-                   matTooltip="{{gender.male}}"
-                   class="cursorPointer" />
-            </mat-radio-button>
-            <mat-radio-button class="radiobutton-image image-position-centre"
-                              value="{{gender.female}}">
-              <mat-card-title class="image-title">{{gender.female}}</mat-card-title>
-              <img [src]="setImageUrlAsPerSelection(selectedGender == gender.female, constants.imageUrls.femaleImageUrl)"
-                   (click)="setUserInformationAndUpdateNavigation(userSelectionKeys.gender, gender.female, isUserSelectionRequired)"
-                   matTooltip="{{gender.female}}"
-                   class="cursorPointer" />
-            </mat-radio-button>
-          </mat-radio-group>
-        </div>
-
-        <!--Next Navigation-->
-        <div class="col-1 slider-margin">
-          <button *ngIf="isNextButtonToDisplay" mat-fab color="primary"
-                  matTooltip="Next"
-                  (click)="navigateToNextUserSelection()"
-                  [disabled]="isNextButtonDisabled">
-            <mat-icon>navigate_next</mat-icon>
-          </button>
-        </div>
-      </div>
-    </mat-card-content>
-  </mat-card>
+  Welcome  
 </div>
 
 
