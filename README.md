@@ -5,3 +5,4 @@
 4. For validating user using JWT token.
 5. using mongoDb cloud for data storage.
 6. using azure portal for hosting web and mocroservice.
+7. Using TestQuality tool for the Test Case Creation and Management for GitHub Workflows
