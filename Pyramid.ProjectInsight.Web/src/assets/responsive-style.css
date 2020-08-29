@@ -1,0 +1,99 @@
+@media screen and (max-width:1366px) and (min-width:1024px) {
+
+    .ribbon{height: 89px; !important}
+  
+    .form_content{margin-top: 20% !important; padding: 0px; width: 83%; left: 9%;}
+   
+}
+@media screen and (max-width:991px) and (min-width:883x) {
+    .pad{padding: 6px !important;}
+    .modal.in .modal-dialog{width: 92%;}
+}
+
+
+@media screen and (max-width:883px){
+	/*.ribbon li{padding:30px 22px 26px 22px;}*/
+	.ribbon li .fa {font-size: 25px; margin-left: 8px;}
+	.ribbon li a { font-size: 15px;}
+    .ribbon{margin-top: 5%;}
+     
+      
+	}
+
+
+@media screen and (max-width:772px) and (min-width:1024px) {
+
+.nav>li>a{ padding: 1px 1px 5px 10px !important; font-size: 14px !important;}
+
+
+}
+
+@media screen and (max-width:775px) and (min-width:516px){
+
+	ul.nav.pull-right.topmenus {
+    width: 54%;
+    display: block;
+}
+    .modal.in .modal-dialog{width: 92%;}
+li.nav.pull-right.menuright{width:auto;text-align:center;white-space:nowrap}
+li:nth-child(3).nav.pull-right.menuright{width:40% !important;}
+.main-header>.navbar{height:auto !important;}
+/*.sidebar-open .main-sidebar, .sidebar-open .left-side{width: 100% !important;}
+.main-sidebar{background-size:cover !important;}*/
+.nav>li>a{ padding: 18px 3px 5px 14px !important; font-size: 14px !important;}
+
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .form_content{margin-top: 33% !important; padding: 0px; width: 94%; left: 3%;}
+    .ribbon li:first-child a, .ribbon li:first-child a:hover{padding: 21px 42px !important;}
+}
+
+@media screen and (max-width:516px) and (min-width:320px){
+	select.form-control{width:98%;margin:0 1%;}
+	ul.nav.topmenus li:nth-child(3){margin-right:0 !important;}
+	ul.nav.pull-right.topmenus{width:100%;}
+	
+	li.nav.pull-right.menuright{text-align:center;white-space:nowrap; padding: 0px !important;}
+	.main-header>.navbar{height:170px !important;}
+	img.datatoggle{float:right;margin-right:20px;}
+   
+    .ribbon{margin-top: 111px;}
+    .activeinactive-main{ border-right:none !important;     margin-left: 11% !important; width: 16vh !important;     padding-left: 0px !important;}
+    .ribbon li:first-child a,.ribbon li:first-child a:hover{padding:31px 44px;     margin-left: 0px !important;}
+    .ribbon li:last-child button{padding: 23px 17px 18px 19px !important;}
+    .ribbon li button {width:50%; border-top: 1px solid #eee !important; margin-left: 0px !important;}
+    .ribbon li a{width:50%;}
+    .onoffswitch{    margin-left: 70%;}
+    .ribbon li{text-align:center;}
+     /*.sidebar-open .main-sidebar, .sidebar-open .left-side{width: 100% !important;}
+     .main-sidebar{background-size:cover !important;}*/.form_content
+    .form_content {    margin-top: 0% !important;width: 100%;}
+    .addnew-group .checkbox-primary {    margin-top: 18px !important;}
+.nav-tabs li:nth-child(1) a {background:none !important; padding-left: 0px !important; font-size:11px !important; padding-top: 8px !important;}
+.nav-tabs li:nth-child(2) a {background:none !important; padding-left: 0px !important; font-size:11px !important; padding-top: 8px !important;}
+.nav-tabs li:nth-child(3) a {background:none !important; padding-left: 0px !important; font-size:11px !important; padding-top: 8px !important;}
+.nav-tabs li:nth-child(4) a {background:none !important; padding-left: 0px !important; font-size:11px !important; padding-top: 8px !important;}
+.nav-tabs li:nth-child(5) a {background:none !important; padding-left: 0px !important; font-size:11px !important; padding-top: 8px !important;}
+.nav-tabs li:nth-child(6) a {background:none !important; padding-left: 0px !important; font-size:11px !important; padding-top: 8px !important;}
+.panel-body{    padding: 5px !important;}
+.nav-tabs > li{padding: 0px 0px !important;}
+.nav-tabs > li > span{    padding-left: 4px !important;}
+ul.nav.nav-tabs li .btn {  padding: 14px 3px 11px 8px !important;}
+.nav>li>a{padding: 9px !important;     border-right: none !important; }
+.gridhead{font-size: 10px;}
+.sidbar-bg{top: -102px;}
+.save-button{font-size: 14px !important;}
+.cancel-button{font-size: 14px !important;}
+.pad0_mob{padding:0px !important;}
+.save-button{font-size:12px !important;}
+.update-button{font-size:12px !important;}
+.cancel-button{font-size:12px !important;}
+.table_popup{overflow: auto;     border: 1px white solid; }
+.content_top{ padding-left: 0px !important;}
+.activeinactive-main{height: 110px !important; padding: 22px;}
+.panel-default{margin-top: 5% !important;}
+.star_rep { margin-left: 76% !important;}
+.login_rhs{display:none;}
+.form_content{left: 0% !important; margin-top: 23% !important;}
+}
+

@@ -1,0 +1,159 @@
+﻿/*--------------Grid Header---------*/
+.ag-fresh .ag-header-cell {
+    border-right: 1px solid #CCC;
+}
+
+.ag-fresh .ag-cell-last-left-pinned {
+    border-right: 1px solid #808080;
+    background: #fff;
+}
+
+.ag-fresh .ag-editable-cell {
+background-color:#c6c6c6!important;
+border-right: 1px solid ;
+border-top: 1px solid ;
+border-left: 1px solid ;
+border-bottom: 1px solid;
+}
+
+
+.ag-fresh .ag-header-cell-text{
+    /*color:#009998 !important;*/
+     color:#001a71 !important;
+}
+
+/*--------------Grid Content--------*/
+.ag-fresh .ag-row-odd {
+	background: #eee  !important;
+}
+.ag-fresh .ag-row-selected {
+    background-color: #b0e0e6 !important;
+}
+/* Background color for Winner row in grid. */
+.ag-fresh .ag-row-winner {
+    background-color: #92d36e !important;
+}
+
+/* Background color for failed Job in grid. */
+.ag-fresh .ag-row-failed-job {
+    color:red !important;
+}
+/*--------------Grid buttons--------*/
+.btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
+    text-align: center;
+}
+.glyphicon-stop{
+    font-weight: 600;
+	font-size: 14px;
+    color:#92d36e !important;
+}
+.glyphicon-off {
+    font-weight: 200;
+	font-size: 16px;
+    color: #FF3823 !important;
+}
+.btntransparent{
+    font-weight: 600;
+    float:right;
+	font-size: 14px;
+	color:#009999;
+}
+button.btntransparent > span {
+    font-weight: 600;
+	font-size: 14px;
+	color:#FF7043 !important;
+}
+.btntransparent, .btnaction {
+	background-color: transparent !important;
+	border: none !important;
+	border-color:transparent !important;
+}
+
+.ag-fresh {
+    line-height: 1.4 !important;
+    /*font-family: proxima-nova, sans-serif !important;
+    font-weight:400;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif!important;
+    font-size:12px;
+    /*color: #001a71 !important;*/
+/* this is for the rowGroupPanel, that appears along the top of the grid */
+/* this is for the column drops that appear in the toolPanel */
+}
+
+.ag-fresh .ag-paging-row-summary-panel{
+    width:auto;
+    display:inline;
+}
+.ag-fresh .ag-cell-no-focus {
+  border-right: 1px dotted #808080 !important;
+  border-top: 1px solid transparent !important;
+  border-left: 1px solid transparent !important;
+  border-bottom: 1px solid transparent !important;
+}
+.ag-fresh .ag-header {
+	color: #001a71 !important;
+  /*background: -webkit-linear-gradient(#fff, #d3d3d3);
+  background: -moz-linear-gradient(#fff, #d3d3d3);
+  background: -o-linear-gradient(#fff, #d3d3d3);
+  background: -ms-linear-gradient(#fff, #d3d3d3);*/
+  background: #FFFFFF !important;
+  /*border-bottom: 1px solid #808080 !important;*/
+  font-weight: 600 !important;
+}
+.ag-fresh .ag-header-icon {
+  color: #001a71 !important;
+  stroke: none !important;
+  fill: #001a71 !important;
+}
+.gridDiv {
+	height: 400px;
+}
+
+.aggridClass {
+	min-height:400px!important;
+	width: 100%;
+	margin: auto;
+}
+
+.aggridSmallClass {
+	height:270px!important;
+	width: 100%;
+	margin: auto;
+}
+
+.aggridheight{
+    height:1000px!important;
+    width: 100%;
+	margin: auto;
+}
+
+.ag-full-width-viewport{
+    width:0px!important;
+}
+/*--------Grid Paging--------*/
+.ag-fresh .ag-paging-panel {
+    padding: 4px;
+    text-align: center;
+    background-color:#ffffff;
+    /*background: -webkit-linear-gradient(to bottom,White,#c0c0c0);*/ /* For Safari 5.1 to 6.0 */
+    /*background: -moz-linear-gradient(to bottom,White,#c0c0c0);*/ /* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(to bottom,White,#c0c0c0);*/ /* Standard syntax */
+    border: solid 1px #808080;
+}
+
+.cell-align-right
+{
+    text-align: right;
+}
+.cell-align-left
+{
+    text-align: left;
+}
+.cell-align-center
+{
+    text-align: center;
+}
+
+.ag-fresh .ag-floating-bottom .ag-row{
+    background-color:#b0e0e6!important;
+}

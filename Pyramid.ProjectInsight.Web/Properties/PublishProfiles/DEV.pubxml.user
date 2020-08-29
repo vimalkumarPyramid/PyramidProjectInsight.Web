@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\DevPublish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include=".editorconfig">
+      <publishTime>07/27/2018 17:36:44</publishTime>
+    </File>
+    <File Include=".gitignore">
+      <publishTime>07/27/2018 17:36:44</publishTime>
+    </File>
+    <File Include="angular.json">
+      <publishTime>08/02/2018 01:06:22</publishTime>
+    </File>
+    <File Include="bin/Investment.Strategy.Web.dll">
+      <publishTime>08/02/2018 14:35:22</publishTime>
+    </File>
+    <File Include="bin/Investment.Strategy.Web.pdb">
+      <publishTime>08/02/2018 14:35:22</publishTime>
+    </File>
+    <File Include="default.html">
+      <publishTime>08/01/2018 15:25:54</publishTime>
+    </File>
+    <File Include="e2e/tsconfig.e2e.json">
+      <publishTime>07/27/2018 17:36:44</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>08/02/2018 15:12:26</publishTime>
+    </File>
+    <File Include="karma.conf.js">
+      <publishTime>07/27/2018 17:36:44</publishTime>
+    </File>
+    <File Include="package-lock.json">
+      <publishTime>08/02/2018 00:58:07</publishTime>
+    </File>
+    <File Include="package.json">
+      <publishTime>08/02/2018 01:03:20</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>08/02/2018 15:22:52</publishTime>
+    </File>
+    <File Include="protractor.conf.js">
+      <publishTime>07/27/2018 17:36:44</publishTime>
+    </File>
+    <File Include="README.md">
+      <publishTime>07/27/2018 17:36:44</publishTime>
+    </File>
+    <File Include="src/app/app.component.css">
+      <publishTime>07/27/2018 17:36:45</publishTime>
+    </File>
+    <File Include="src/app/app.component.html">
+      <publishTime>08/02/2018 15:11:42</publishTime>
+    </File>
+    <File Include="src/app/home/home.component.html">
+      <publishTime>08/02/2018 15:00:23</publishTime>
+    </File>
+    <File Include="src/assets/.gitkeep">
+      <publishTime>07/25/2018 14:06:59</publishTime>
+    </File>
+    <File Include="src/assets/AdminLTE.min.css">
+      <publishTime>07/25/2018 14:06:59</publishTime>
+    </File>
+    <File Include="src/assets/images/agent.jpg">
+      <publishTime>07/26/2018 19:10:35</publishTime>
+    </File>
+    <File Include="src/assets/images/alcohol.png">
+      <publishTime>07/31/2018 20:01:38</publishTime>
+    </File>
+    <File Include="src/assets/images/assistant.gif">
+      <publishTime>08/02/2018 14:34:51</publishTime>
+    </File>
+    <File Include="src/assets/images/cancer.png">
+      <publishTime>08/01/2018 01:12:43</publishTime>
+    </File>
+    <File Include="src/assets/images/diabetes.png">
+      <publishTime>07/31/2018 19:27:24</publishTime>
+    </File>
+    <File Include="src/assets/images/employed-female.png">
+      <publishTime>07/31/2018 15:25:56</publishTime>
+    </File>
+    <File Include="src/assets/images/employed-male.png">
+      <publishTime>07/31/2018 15:25:56</publishTime>
+    </File>
+    <File Include="src/assets/images/family-no-child.png">
+      <publishTime>07/31/2018 02:02:13</publishTime>
+    </File>
+    <File Include="src/assets/images/family-one-child.png">
+      <publishTime>07/31/2018 02:02:13</publishTime>
+    </File>
+    <File Include="src/assets/images/family-two-children.png">
+      <publishTime>07/31/2018 02:21:29</publishTime>
+    </File>
+    <File Include="src/assets/images/favicon.ico">
+      <publishTime>07/25/2018 14:07:00</publishTime>
+    </File>
+    <File Include="src/assets/images/female-single.png">
+      <publishTime>07/31/2018 01:23:51</publishTime>
+    </File>
+    <File Include="src/assets/images/female.png">
+      <publishTime>07/29/2018 17:02:06</publishTime>
+    </File>
+    <File Include="src/assets/images/heart-patient.png">
+      <publishTime>07/31/2018 20:20:26</publishTime>
+    </File>
+    <File Include="src/assets/images/high-blood-pressure.png">
+      <publishTime>07/31/2018 19:27:24</publishTime>
+    </File>
+    <File Include="src/assets/images/housewife.png">
+      <publishTime>07/31/2018 15:25:56</publishTime>
+    </File>
+    <File Include="src/assets/images/insurance.png">
+      <publishTime>07/29/2018 17:02:06</publishTime>
+    </File>
+    <File Include="src/assets/images/investment_strategy.png">
+      <publishTime>07/25/2018 17:48:04</publishTime>
+    </File>
+    <File Include="src/assets/images/logo.png">
+      <publishTime>07/25/2018 14:07:00</publishTime>
+    </File>
+    <File Include="src/assets/images/low-blood-pressure.png">
+      <publishTime>07/31/2018 20:05:48</publishTime>
+    </File>
+    <File Include="src/assets/images/male-single.png">
+      <publishTime>07/31/2018 01:23:51</publishTime>
+    </File>
+    <File Include="src/assets/images/male.png">
+      <publishTime>07/29/2018 17:02:06</publishTime>
+    </File>
+    <File Include="src/assets/images/man1.png">
+      <publishTime>07/29/2018 17:02:06</publishTime>
+    </File>
+    <File Include="src/assets/images/man10.png">
+      <publishTime>07/29/2018 17:02:06</publishTime>
+    </File>
+    <File Include="src/assets/images/man20.png">
+      <publishTime>07/29/2018 17:02:06</publishTime>
+    </File>
+    <File Include="src/assets/images/man30.png">
+      <publishTime>07/29/2018 17:02:06</publishTime>
+    </File>
+    <File Include="src/assets/images/man40.png">
+      <publishTime>07/29/2018 17:02:06</publishTime>
+    </File>
+    <File Include="src/assets/images/man50.png">
+      <publishTime>07/29/2018 17:02:06</publishTime>
+    </File>
+    <File Include="src/assets/images/man60.png">
+      <publishTime>07/29/2018 17:02:06</publishTime>
+    </File>
+    <File Include="src/assets/images/married.png">
+      <publishTime>07/31/2018 01:23:51</publishTime>
+    </File>
+    <File Include="src/assets/images/next-arrow.png">
+      <publishTime>08/01/2018 00:28:53</publishTime>
+    </File>
+    <File Include="src/assets/images/not-working-female.png">
+      <publishTime>07/31/2018 15:25:56</publishTime>
+    </File>
+    <File Include="src/assets/images/not-working-male.png">
+      <publishTime>07/31/2018 15:25:56</publishTime>
+    </File>
+    <File Include="src/assets/images/previous-arrow.png">
+      <publishTime>08/01/2018 00:38:30</publishTime>
+    </File>
+    <File Include="src/assets/images/pyd_logo.png">
+      <publishTime>07/25/2018 14:07:00</publishTime>
+    </File>
+    <File Include="src/assets/images/retired-female.png">
+      <publishTime>07/31/2018 15:25:56</publishTime>
+    </File>
+    <File Include="src/assets/images/retired-male.png">
+      <publishTime>07/31/2018 15:25:56</publishTime>
+    </File>
+    <File Include="src/assets/images/retirement.png">
+      <publishTime>07/29/2018 17:02:06</publishTime>
+    </File>
+    <File Include="src/assets/images/self-employed-female.png">
+      <publishTime>07/31/2018 15:25:56</publishTime>
+    </File>
+    <File Include="src/assets/images/self-employed-male.png">
+      <publishTime>07/31/2018 15:25:56</publishTime>
+    </File>
+    <File Include="src/assets/images/smoking.png">
+      <publishTime>07/31/2018 19:59:19</publishTime>
+    </File>
+    <File Include="src/assets/images/student-female.png">
+      <publishTime>07/31/2018 15:25:56</publishTime>
+    </File>
+    <File Include="src/assets/images/student-male.png">
+      <publishTime>07/31/2018 15:25:56</publishTime>
+    </File>
+    <File Include="src/assets/images/thyroid.png">
+      <publishTime>07/31/2018 20:09:23</publishTime>
+    </File>
+    <File Include="src/assets/images/tuberculosis.png">
+      <publishTime>07/31/2018 20:22:58</publishTime>
+    </File>
+    <File Include="src/assets/style.css">
+      <publishTime>08/01/2018 23:40:11</publishTime>
+    </File>
+    <File Include="src/favicon.ico">
+      <publishTime>07/27/2018 17:36:44</publishTime>
+    </File>
+    <File Include="src/index.html">
+      <publishTime>08/02/2018 14:38:43</publishTime>
+    </File>
+    <File Include="src/styles.css">
+      <publishTime>07/31/2018 23:55:40</publishTime>
+    </File>
+    <File Include="src/tsconfig.app.json">
+      <publishTime>07/27/2018 17:36:45</publishTime>
+    </File>
+    <File Include="src/tsconfig.spec.json">
+      <publishTime>07/27/2018 17:36:45</publishTime>
+    </File>
+    <File Include="tsconfig.json">
+      <publishTime>07/27/2018 17:36:44</publishTime>
+    </File>
+    <File Include="tslint.json">
+      <publishTime>07/27/2018 17:36:44</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/02/2018 14:54:07</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

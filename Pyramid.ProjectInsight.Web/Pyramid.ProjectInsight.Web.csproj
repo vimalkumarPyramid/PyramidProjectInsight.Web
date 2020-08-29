@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{352C54E2-A4A6-4295-8718-C63B44F9076B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pyramid.ProjectInsight.Web</RootNamespace>
+    <AssemblyName>Pyramid.ProjectInsight.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TypeScriptToolsVersion>2.8</TypeScriptToolsVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptExperimentalDecorators>true</TypeScriptExperimentalDecorators>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".editorconfig" />
+    <Content Include=".gitignore" />
+    <Content Include="e2e\tsconfig.e2e.json" />
+    <Content Include="index.html" />
+    <Content Include="package-lock.json" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="src\app\shared-components\loader\loader.component.css" />
+    <Content Include="src\app\shared-components\loader\loader.component.html" />
+    <Content Include="src\app\email-dialog\email-dialog.component.html" />
+    <Content Include="src\app\home\home.component.html" />
+    <Content Include="src\assets\.gitkeep" />
+    <Content Include="src\assets\images\agent.jpg" />
+    <Content Include="src\assets\images\alcohol.png" />
+    <Content Include="src\assets\images\annuity.png" />
+    <Content Include="src\assets\images\assistant.gif" />
+    <Content Include="src\assets\images\bot.png" />
+    <Content Include="src\assets\images\cancer.png" />
+    <Content Include="src\assets\images\chatbot-background.jpg" />
+    <Content Include="src\assets\images\deferred.png" />
+    <Content Include="src\assets\images\diabetes.png" />
+    <Content Include="src\assets\images\employed-female.png" />
+    <Content Include="src\assets\images\employed-male.png" />
+    <Content Include="src\assets\images\family-no-child.png" />
+    <Content Include="src\assets\images\family-one-child.png" />
+    <Content Include="src\assets\images\family-two-children.png" />
+    <Content Include="src\assets\images\favicon.ico" />
+    <Content Include="src\assets\images\insurance-header.jpg" />
+    <Content Include="src\assets\images\insurance-policy.jpg" />
+    <Content Include="src\assets\images\investment-logo.png" />
+    <Content Include="src\assets\images\female-single.png" />
+    <Content Include="src\assets\images\female.png" />
+    <Content Include="src\assets\images\footer-background.jpg" />
+    <Content Include="src\assets\images\footer-background.png" />
+    <Content Include="src\assets\images\hdfc.png" />
+    <Content Include="src\assets\images\heart-patient.png" />
+    <Content Include="src\assets\images\high-blood-pressure.png" />
+    <Content Include="src\assets\images\housewife.png" />
+    <Content Include="src\assets\images\icici.png" />
+    <Content Include="src\assets\images\immediateannuity.png" />
+    <Content Include="src\assets\images\insurance-background.jpg" />
+    <Content Include="src\assets\images\insurance.png" />
+    <Content Include="src\assets\images\investment_strategy.png" />
+    <Content Include="src\assets\images\lifeimage.jpg" />
+    <Content Include="src\assets\images\logo.png" />
+    <Content Include="src\assets\images\low-blood-pressure.png" />
+    <Content Include="src\assets\images\male-single.png" />
+    <Content Include="src\assets\images\male.png" />
+    <Content Include="src\assets\images\man1.png" />
+    <Content Include="src\assets\images\man10.png" />
+    <Content Include="src\assets\images\man20.png" />
+    <Content Include="src\assets\images\man30.png" />
+    <Content Include="src\assets\images\man40.png" />
+    <Content Include="src\assets\images\man50.png" />
+    <Content Include="src\assets\images\man60.png" />
+    <Content Include="src\assets\images\married.png" />
+    <Content Include="src\assets\images\max-life.png" />
+    <Content Include="src\assets\images\moneyback.png" />
+    <Content Include="src\assets\images\next-arrow.png" />
+    <Content Include="src\assets\images\not-working-female.png" />
+    <Content Include="src\assets\images\not-working-male.png" />
+    <Content Include="src\assets\images\previous-arrow.png" />
+    <Content Include="src\assets\images\pyd_logo.png" />
+    <Content Include="src\assets\images\quote-check.png" />
+    <Content Include="src\assets\images\retired-female.png" />
+    <Content Include="src\assets\images\retired-male.png" />
+    <Content Include="src\assets\images\retirement.png" />
+    <Content Include="src\assets\images\retirementimage.jpg" />
+    <Content Include="src\assets\images\sbi-life.png" />
+    <Content Include="src\assets\images\select.png" />
+    <Content Include="src\assets\images\self-employed-female.png" />
+    <Content Include="src\assets\images\self-employed-male.png" />
+    <Content Include="src\assets\images\smoking.png" />
+    <Content Include="src\assets\images\student-female.png" />
+    <Content Include="src\assets\images\student-male.png" />
+    <Content Include="src\assets\images\terminsurance.png" />
+    <Content Include="src\assets\images\thyroid.png" />
+    <Content Include="src\assets\images\tuberculosis.png" />
+    <Content Include="src\assets\images\ulip.png" />
+    <Content Include="src\assets\images\user.png" />
+    <Content Include="src\assets\images\wholelife.png" />
+    <Content Include="src\assets\images\withcover.png" />
+    <Content Include="src\assets\style.css" />
+    <Content Include="src\tsconfig.app.json" />
+    <Content Include="src\tsconfig.spec.json" />
+    <Content Include="tsconfig.json" />
+    <Content Include="tslint.json" />
+    <Content Include="angular.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="karma.conf.js" />
+    <Content Include="protractor.conf.js" />
+    <Content Include="src\app\app.component.css" />
+    <Content Include="src\app\app.component.html" />
+    <Content Include="src\favicon.ico" />
+    <Content Include="src\index.html" />
+    <Content Include="src\styles.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="e2e\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="e2e\app.po.ts" />
+    <TypeScriptCompile Include="src\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\app.component.ts" />
+    <TypeScriptCompile Include="src\app\app.module.ts" />
+    <TypeScriptCompile Include="src\app\app.routes.ts" />
+    <TypeScriptCompile Include="src\app\common\constants.ts" />
+    <TypeScriptCompile Include="src\app\shared-services\intercepted-http.service.ts" />
+    <TypeScriptCompile Include="src\app\shared-components\loader\loader.component.ts" />
+    <TypeScriptCompile Include="src\app\shared-components\loader\loader.service.ts" />
+    <TypeScriptCompile Include="src\app\shared-components\loader\loader-state.ts" />
+    <TypeScriptCompile Include="src\app\email-dialog\email-dialog.component.ts" />
+    <TypeScriptCompile Include="src\app\email-dialog\email-dialog.service.ts" />
+    <TypeScriptCompile Include="src\app\enums\gender.ts" />
+    <TypeScriptCompile Include="src\app\home\home.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\home\home.component.ts" />
+    <TypeScriptCompile Include="src\app\home\home.service.spec.ts" />
+    <TypeScriptCompile Include="src\app\home\home.service.ts" />
+    <TypeScriptCompile Include="src\app\material.module.ts" />
+    <TypeScriptCompile Include="src\app\models\message.model.ts" />
+    <TypeScriptCompile Include="src\app\models\user-information.model.ts" />
+    <TypeScriptCompile Include="src\app\shared-services\notification.service.ts" />
+    <TypeScriptCompile Include="src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="src\environments\environment.ts" />
+    <TypeScriptCompile Include="src\main.ts" />
+    <TypeScriptCompile Include="src\polyfills.ts" />
+    <TypeScriptCompile Include="src\test.ts" />
+    <TypeScriptCompile Include="src\typings.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\DEV.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.DEV.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.PROD.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.QA.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <!-- Makes the TypeScript compilation task a no-op -->
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DEV|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'UAT|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'PROD|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>65014</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/Pyramid.ProjectInsight.Web</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PreBuildEvent>(if $(ConfigurationName)==Debug (ng build))
+(if $(ConfigurationName)==DEV (ng build --prod))</PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

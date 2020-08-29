@@ -1,0 +1,109 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body, html {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+    background-color:#e6effa;
+
+   
+  
+}
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000; /* change if the mask should have another color then white */
+    z-index: 99999; /* makes sure it stays on top */
+}
+
+#status {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    text-align: center;
+    left: 42%; /* centers the loading animation horizontally one the screen */
+    top: 50%; /* centers the loading animation vertically one the screen */
+    background-image: url(images/status.gif); /* path to your loading animation */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px; /* is width and height divided by two */
+}
+
+.background_image {
+	background-image: url(images/login-background.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+}
+#form_area {
+	float: left;
+	width: 100%;
+	height: 100%;
+	position: relative
+}
+.form_content {
+    padding: 22px;
+    height: auto;
+    background: #102442;
+    position: absolute;
+    left: 26%;
+    margin-top: 25%;
+    border-radius: 9px;
+    width: 50%;
+
+}
+.logo {
+	padding: 6px 0;
+}
+#form_area input { border-radius: 6px !important;
+    border: 2px #308ecd solid;
+    height: 40px;
+    margin-bottom: 16px;
+}
+#form_area input, #form_area select {
+	font-size: 16px;
+    color: #000;
+  
+}
+.login_btn {
+	width: 100%;
+    padding: 9px 0;
+    margin: 10px 0 20px 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 6px !important;
+    color:#102442;
+}
+.select-style  {
+    border: 1px solid #ccc;
+    width: 100%;
+    overflow: hidden;
+    background: #fafafa url(images/icon-select.png) no-repeat 100% 50%;
+    border-radius: 6px !important;
+    border: 2px #308ecd solid;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 105%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none; cursor:pointer;
+    height: 38px;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+.select-style select option{padding:3px 9px;}
+
+.body-content{height:100%}
+.txt{text-align:right;}
+.login_lhs{background-color:#e6effa;}
+.login_rhs{background: url(images/login_bg.png) no-repeat 0 0; height:auto; background-size: cover; height: 100vh;}
+.padding0{padding:0px !important;}
